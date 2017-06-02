@@ -114,7 +114,6 @@ a:hover {
 }
 
 .m_news .heading {
-	background: #cf4f4f;
 	height: 25px;
 	padding: 20px;
 	transition: all 0.2s ease-in-out;
@@ -179,14 +178,9 @@ a:hover {
     width: 76px;
     height: 68px;
     padding-right: 3px;
-    background-color: #cf4f4f;
     background-image: none;
     padding-left: 0px;
     transition: all 0.2s ease-in-out;
-}
-
-.m_news .commentbox .bubble:hover {
-    background-color: #a53f3f;
 }
 
 .m_news .commentbox .bubble .big-number {
@@ -247,7 +241,7 @@ a:hover {
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
 /**--------------------
-BBCODE QUOTES - OLD
+BBCODE QUOTES
 */
 
 .bbcode_quote {

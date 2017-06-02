@@ -1,0 +1,435 @@
+/*==================================
+        THEME BASE CODE
+==================================*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200|Open+Sans:400,700|Oxygen|Raleway');
+
+
+/*
+    Containers
+*/
+#page .container {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 14px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+/*
+Edit and Delete Button
+*/
+a.news-edit-link:hover {
+    background-color: #a53f3f; 
+}
+
+a.news-delete-link:hover {
+    background-color: #a53f3f;
+}
+
+a.news-edit-link {
+    display: inline-block;
+    font-size: 10px;
+    background-color: #cf4f4f;
+    padding: 3px 6px 3px 6px;
+    color: #ffffff;
+    border-radius: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a.news-delete-link {
+    display: inline-block;
+    font-size: 10px;
+    background-color: #cf4f4f;
+    padding: 3px 6px 3px 6px;
+    color: #ffffff;
+    border-radius: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+Button Element
+*/
+
+.element_button {
+    border-radius: 1px;
+}
+
+/* 
+Latest Threads - OLD CODE
+
+
+.m_forumlatestnewthreads .thread .post-info-avatar .forum, .m_forumlatestthreads .thread .post-info-avatar .forum {
+    margin-top: 4px;
+    font-size: 11px;
+    display: inline-block;
+    background-color: #cf4f4f;
+    padding: 3px 6px 3px 6px;
+    color: #ffffff;
+    border-radius: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.element_avatar.small img {
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+}
+
+.m_forumlatestthreads {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.m_forumlatestnewthreads .thread .post-info-avatar .forum, .m_forumlatestthreads .thread .post-info-avatar .forum:hover {
+    background-color: #a53f3f;
+}
+
+.m_forumlatestnewthreads .thread .post-info-avatar .title > a.old, .m_forumlatestthreads .thread .post-info-avatar .title > a.old {
+    color: #546e7a;
+}*/
+
+
+/* 
+    Moderation Tools 
+*/
+
+.m_forum .thread-moderation .content {
+    border: 0px;
+}
+
+.rules h1, h2 {
+  color: #cf4f4f;
+}
+
+.body-wrap-3 {
+    overflow-x: hidden;
+    min-width: 954px;
+    margin-top: 30px;
+}
+
+.m_html {
+  padding: 0px;
+}
+
+::selection {
+  background: hsla(0, 57%, 56%, 0.84); /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: #cf4f4f; /* Gecko Browsers */
+  color: white;
+}
+
+.m_forum .search-result-post .word-highlight {
+    background: #cf4f4f;
+    color: white;
+}
+
+/* Background */
+body {
+    background-image: none;
+}
+
+/* Fonts */
+
+*{
+    font-family: 'Oxygen', sans-serif; !important
+    font-weight: 600;
+}
+
+span.forum-label {
+    font-family: 'Oxygen', sans-serif; !important
+    font-weight: 600;
+}
+
+.element_button input, .element_smallbutton input {
+    font-family: 'Oxygen', sans-serif; !important
+    font-weight: 600;
+}
+
+.v2_system_social .wall .comments_reply_input {
+    font-family: 'Oxygen', sans-serif; !important
+    font-weight: 600;
+}
+
+.v2_system_social .wall .share .share_new {
+    font-family: 'Oxygen', sans-serif; !important
+    font-weight: 600;
+}
+
+/* Minor Tweaks */
+
+a {
+    color: #cf4f4f;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #a53f3f;
+    text-decoration: none;
+}
+
+.element_button {
+    font-family: 'Oxygen', sans-serif; !important
+    background: #cf4f4f;
+    transition: all 0.2s ease-in-out;
+}
+
+.element_button:hover {
+    background: #a53f3f;
+}
+
+.m_forum.viewthread .post-signature {
+    border-top: 2px solid;
+    border-top-color: #464646;
+}
+
+.v2_system_dashboard .messages .message_sidebar_block .message_user_details {
+    margin-left: 53px;
+    height: 100%;
+    line-height: 22px;
+    overflow: hidden;
+    color: white;
+}
+
+/* News */
+
+.m_news.main .float-rss {
+    visibility: hidden;
+}
+
+.m_news.main .float-manage {
+    visibility: hidden;
+}
+
+.m_news .heading .element_avatar.medium img, .element_avatar.mediumlarge img, .element_avatar.mediumsmall img {
+    width: 65px;
+    height: 65px;
+    top: -15px;
+    left: -16px;
+}
+
+.m_news .heading {
+    font-family: 'Oxygen';
+	background: #cf4f4f;
+	height: 25px;
+	padding: 20px;
+	transition: all 0.2s ease-in-out;
+}
+
+.m_news .heading:hover {
+    background: #a53f3f;
+}
+
+.m_news .article.first .heading {
+	margin-right: 0 !important;
+}
+
+.m_news.main .heading .title, .m_news.viewarticle .heading .title {
+    font-family: 'Oxygen';
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 2px;
+}
+
+.m_news .heading .title a {
+    font-family: 'Oxygen';
+	color: #fff;
+	font-weight: 300 !important;
+	text-transform: uppercase;
+}
+
+.m_news .heading .title a:hover {
+	text-decoration: none;
+}
+
+.m_news .heading .info {
+	visibility: hidden;
+}
+
+.m_news .heading .info .date {
+	visibility: visible;
+	float: right;
+	position: relative;
+	top: -30px;
+	font-family: 'Oxygen';
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.m_news .article .article-content {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+.m_news.viewarticle .m_plugin_comment {
+	width: 94%;
+	margin: 50px auto 0 auto;
+}
+
+.m_news .article .heading .element_avatar {
+    margin-top: -7px;
+    margin-left: -6px;
+}
+
+.m_news .element_avatar.image .a_tl, .element_avatar.image .a_tr, .element_avatar.image .a_bl, .element_avatar.image .a_br {
+    display: none;
+}
+
+.m_news .commentbox .bubble {
+    width: 76px;
+    height: 68px;
+    padding-right: 3px;
+    background-color: #cf4f4f;
+    background-image: none;
+    padding-left: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+.m_news .commentbox .bubble:hover {
+    background-color: #a53f3f;
+}
+
+.m_news .commentbox .bubble .big-number {
+    margin-top: 11px;
+    color: white;
+    margin-bottom: 1px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.m_news .commentbox .bubble a:hover {
+    text-decoration: none;
+}
+
+.m_news .commentbox .bubble .comment-text {
+    color: white;
+}
+
+/* Container Modifications */
+
+.container.with-header .container_header .header_text_text {
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: none;
+    font-family: Oxygen; sans-serif
+}
+
+.m_news.viewarticle .m_plugin_comment .block-title {
+	background: transparent;
+	border-bottom: 2px solid #cf4f4f;
+	color: #cf4f4f;
+}
+
+/* Module Link Modifications */
+
+.contentbox .block-title a {
+   color: #ffffff;
+}
+
+/* Enjin Tray Modifications */
+
+#enjin-tray, #enjin-tray-messaging {
+    box-shadow: 0 0 5px 0 black;
+}
+
+/* Progress Bars */
+
+.element_progressbar {
+    border: 0;
+}
+
+/***************************************************************************************************
+*                                                                                                  *
+*                                        ~Font Import~                                             *
+*                                                                                                  *
+****************************************************************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,);
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/**--------------------
+BBCODE QUOTES - OLD
+*/
+.bbcode_quote {
+    margin: 5px 0 10px 0;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    border-left: 2px solid;
+    background-color: #262526;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.bbcode_quote .bbcode_quote_title {
+    padding: 0px;
+    height: 34px;
+    line-height: 34px;
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bbcode_quote .bbcode_quote_title .show-quote {
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    width: 20px;
+    font-size: 0;
+    margin: 7px 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bbcode_quote .bbcode_quote_title .show-quote i.material-icons {
+    font-size: 20px;
+}
+
+.bbcode_quote.open > .bbcode_quote_title .show-quote i.material-icons.chev-right {
+    display: none;
+}
+
+.bbcode_quote > .bbcode_quote_title .show-quote i.material-icons.chev-down {
+    margin-top: 1px;
+    display: none;
+}
+
+.bbcode_quote.open > .bbcode_quote_title .show-quote i.material-icons.chev-down {
+    display: inline-block;
+}
+
+.bbcode_quote .bbcode_quote_content {
+    display: none;
+    padding: 5px;
+}
+
+
+/**-----------------------
+HOTFIXES START
+-----------------------**/
+/*.bbcode_quote {
+  border-color: #2b2a2b;
+  padding: 10px 10px 10px 10px;
+  border-radius: 1px;
+}*/
+
+.m_forumlatestnewthreads .thread .post-info-avatar .title > a.old, .m_forumlatestthreads .thread .post-info-avatar .title > a.old {
+color: #ffffff;
+}
+
+.m_forumlatestnewthreads .thread .post-info-avatar .title > a.old, .m_forumlatestthreads .thread .post-info-avatar .title > a.old:hover {
+color: #bdbdbd;
+}
+
+.iconf-attention.iconf-icons {
+    display: none;
+}

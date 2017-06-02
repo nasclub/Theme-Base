@@ -55,41 +55,6 @@ Button Element
 }
 
 /* 
-Latest Threads - OLD CODE
-
-
-.m_forumlatestnewthreads .thread .post-info-avatar .forum, .m_forumlatestthreads .thread .post-info-avatar .forum {
-    margin-top: 4px;
-    font-size: 11px;
-    display: inline-block;
-    background-color: #cf4f4f;
-    padding: 3px 6px 3px 6px;
-    color: #ffffff;
-    border-radius: 1px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.element_avatar.small img {
-    width: 26px;
-    height: 26px;
-    border-radius: 5px;
-}
-
-.m_forumlatestthreads {
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.m_forumlatestnewthreads .thread .post-info-avatar .forum, .m_forumlatestthreads .thread .post-info-avatar .forum:hover {
-    background-color: #a53f3f;
-}
-
-.m_forumlatestnewthreads .thread .post-info-avatar .title > a.old, .m_forumlatestthreads .thread .post-info-avatar .title > a.old {
-    color: #546e7a;
-}*/
-
-
-/* 
     Moderation Tools 
 */
 
@@ -105,19 +70,6 @@ Latest Threads - OLD CODE
     overflow-x: hidden;
     min-width: 954px;
     margin-top: 30px;
-}
-
-.m_html {
-  padding: 0px;
-}
-
-::selection {
-  background: hsla(0, 57%, 56%, 0.84); /* WebKit/Blink Browsers */
-  color: white;
-}
-::-moz-selection {
-  background: #cf4f4f; /* Gecko Browsers */
-  color: white;
 }
 
 .m_forum .search-result-post .word-highlight {

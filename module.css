@@ -14,6 +14,7 @@
 /*
 Edit and Delete Button
 */
+
 a.news-edit-link:hover {
     background-color: #a53f3f; 
 }
@@ -29,7 +30,6 @@ a.news-edit-link {
     padding: 3px 6px 3px 6px;
     color: #ffffff;
     border-radius: 1px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 a.news-delete-link {
@@ -39,7 +39,6 @@ a.news-delete-link {
     padding: 3px 6px 3px 6px;
     color: #ffffff;
     border-radius: 1px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* 
@@ -276,6 +275,7 @@ a:hover {
 /**--------------------
 BBCODE QUOTES - OLD
 */
+
 .bbcode_quote {
     margin: 5px 0 10px 0;
     padding: 0;
@@ -327,15 +327,9 @@ BBCODE QUOTES - OLD
     padding: 5px;
 }
 
-
 /**-----------------------
 HOTFIXES START
 -----------------------**/
-/*.bbcode_quote {
-  border-color: #2b2a2b;
-  padding: 10px 10px 10px 10px;
-  border-radius: 1px;
-}*/
 
 .m_forumlatestnewthreads .thread .post-info-avatar .title > a.old, .m_forumlatestthreads .thread .post-info-avatar .title > a.old {
 color: #ffffff;

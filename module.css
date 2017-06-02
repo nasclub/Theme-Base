@@ -2,10 +2,6 @@
         THEME BASE CODE
 ==================================*/
 
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200|Open+Sans:400,700|Oxygen|Raleway');
-
-
 /*
     Containers
 */
@@ -302,8 +298,8 @@ a:hover {
 ****************************************************************************************************/
 
 @import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,);
-@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200|Open+Sans:400,700|Oxygen|Raleway');
 
 body {
   font-family: 'Lato', sans-serif;

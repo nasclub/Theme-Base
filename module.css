@@ -1,53 +1,35 @@
-/*==================================
-        THEME BASE CODE
-==================================*/
-
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200|Open+Sans:400,700|Oxygen|Raleway');
-
-
 /*
     Containers
 */
+
 #page .container {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 14px;
-    border-radius: 3px;
-    overflow: hidden;
+	border-radius: 3px;
+	background-color: #2b2a2b;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
 /*
-Edit and Delete Button
+	Edit and Delete Button
 */
-a.news-edit-link:hover {
-    background-color: #a53f3f; 
-}
-
-a.news-delete-link:hover {
-    background-color: #a53f3f;
-}
 
 a.news-edit-link {
     display: inline-block;
     font-size: 10px;
-    background-color: #cf4f4f;
     padding: 3px 6px 3px 6px;
-    color: #ffffff;
+    color: #fff;
     border-radius: 1px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 a.news-delete-link {
     display: inline-block;
     font-size: 10px;
-    background-color: #cf4f4f;
     padding: 3px 6px 3px 6px;
-    color: #ffffff;
+    color: #fff;
     border-radius: 1px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* 
-Button Element
+	Button Element
 */
 
 .element_button {
@@ -55,42 +37,7 @@ Button Element
 }
 
 /* 
-Latest Threads - OLD CODE
-
-
-.m_forumlatestnewthreads .thread .post-info-avatar .forum, .m_forumlatestthreads .thread .post-info-avatar .forum {
-    margin-top: 4px;
-    font-size: 11px;
-    display: inline-block;
-    background-color: #cf4f4f;
-    padding: 3px 6px 3px 6px;
-    color: #ffffff;
-    border-radius: 1px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.element_avatar.small img {
-    width: 26px;
-    height: 26px;
-    border-radius: 5px;
-}
-
-.m_forumlatestthreads {
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.m_forumlatestnewthreads .thread .post-info-avatar .forum, .m_forumlatestthreads .thread .post-info-avatar .forum:hover {
-    background-color: #a53f3f;
-}
-
-.m_forumlatestnewthreads .thread .post-info-avatar .title > a.old, .m_forumlatestthreads .thread .post-info-avatar .title > a.old {
-    color: #546e7a;
-}*/
-
-
-/* 
-    Moderation Tools 
+	Moderation Tools 
 */
 
 .m_forum .thread-moderation .content {
@@ -101,82 +48,33 @@ Latest Threads - OLD CODE
   color: #cf4f4f;
 }
 
-.body-wrap-3 {
-    overflow-x: hidden;
-    min-width: 954px;
-    margin-top: 30px;
-}
-
-.m_html {
-  padding: 0px;
-}
-
-::selection {
-  background: hsla(0, 57%, 56%, 0.84); /* WebKit/Blink Browsers */
-  color: white;
-}
-::-moz-selection {
-  background: #cf4f4f; /* Gecko Browsers */
-  color: white;
-}
-
 .m_forum .search-result-post .word-highlight {
     background: #cf4f4f;
     color: white;
 }
 
-/* Background */
+/*
+	Background
+*/
+
 body {
     background-image: none;
 }
 
-/* Fonts */
-
-*{
-    font-family: 'Oxygen', sans-serif; !important
-    font-weight: 600;
-}
-
-span.forum-label {
-    font-family: 'Oxygen', sans-serif; !important
-    font-weight: 600;
-}
-
-.element_button input, .element_smallbutton input {
-    font-family: 'Oxygen', sans-serif; !important
-    font-weight: 600;
-}
-
-.v2_system_social .wall .comments_reply_input {
-    font-family: 'Oxygen', sans-serif; !important
-    font-weight: 600;
-}
-
-.v2_system_social .wall .share .share_new {
-    font-family: 'Oxygen', sans-serif; !important
-    font-weight: 600;
-}
-
-/* Minor Tweaks */
+/*
+	Minor Tweaks
+*/
 
 a {
-    color: #cf4f4f;
     transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-    color: #a53f3f;
     text-decoration: none;
 }
 
 .element_button {
-    font-family: 'Oxygen', sans-serif; !important
-    background: #cf4f4f;
     transition: all 0.2s ease-in-out;
-}
-
-.element_button:hover {
-    background: #a53f3f;
 }
 
 .m_forum.viewthread .post-signature {
@@ -192,7 +90,9 @@ a:hover {
     color: white;
 }
 
-/* News */
+/*
+	News
+*/
 
 .m_news.main .float-rss {
     visibility: hidden;
@@ -210,15 +110,9 @@ a:hover {
 }
 
 .m_news .heading {
-    font-family: 'Oxygen';
-	background: #cf4f4f;
 	height: 25px;
 	padding: 20px;
 	transition: all 0.2s ease-in-out;
-}
-
-.m_news .heading:hover {
-    background: #a53f3f;
 }
 
 .m_news .article.first .heading {
@@ -226,14 +120,12 @@ a:hover {
 }
 
 .m_news.main .heading .title, .m_news.viewarticle .heading .title {
-    font-family: 'Oxygen';
 	font-size: 30px;
 	text-transform: uppercase;
 	padding-top: 2px;
 }
 
 .m_news .heading .title a {
-    font-family: 'Oxygen';
 	color: #fff;
 	font-weight: 300 !important;
 	text-transform: uppercase;
@@ -252,7 +144,6 @@ a:hover {
 	float: right;
 	position: relative;
 	top: -30px;
-	font-family: 'Oxygen';
 	font-size: 22px;
 	text-transform: uppercase;
 	color: #fff;
@@ -283,14 +174,9 @@ a:hover {
     width: 76px;
     height: 68px;
     padding-right: 3px;
-    background-color: #cf4f4f;
     background-image: none;
     padding-left: 0px;
     transition: all 0.2s ease-in-out;
-}
-
-.m_news .commentbox .bubble:hover {
-    background-color: #a53f3f;
 }
 
 .m_news .commentbox .bubble .big-number {
@@ -309,14 +195,15 @@ a:hover {
     color: white;
 }
 
-/* Container Modifications */
+/*
+	Container Modifications
+*/
 
 .container.with-header .container_header .header_text_text {
     font-weight: normal;
     color: #ffffff;
     font-size: 15px;
     text-transform: none;
-    font-family: Oxygen; sans-serif
 }
 
 .m_news.viewarticle .m_plugin_comment .block-title {
@@ -325,42 +212,44 @@ a:hover {
 	color: #cf4f4f;
 }
 
-/* Module Link Modifications */
+/*
+	Module Link Modifications
+*/
 
 .contentbox .block-title a {
    color: #ffffff;
 }
 
-/* Enjin Tray Modifications */
+/*
+	Enjin Tray Modifications
+*/
 
 #enjin-tray, #enjin-tray-messaging {
-    box-shadow: 0 0 5px 0 black;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
-/* Progress Bars */
+/*
+	Progress Bars
+*/
 
 .element_progressbar {
     border: 0;
 }
 
-/***************************************************************************************************
-*                                                                                                  *
-*                                        ~Font Import~                                             *
-*                                                                                                  *
-****************************************************************************************************/
+/*
+	Font
+*/
 
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,);
-@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
 
-body {
-  font-family: 'Lato', sans-serif;
+* {
+    font-family: 'Oxygen', sans-serif !important;
 }
 
-
-/**--------------------
-BBCODE QUOTES - OLD
+/*
+	BBCode Quotes
 */
+
 .bbcode_quote {
     margin: 5px 0 10px 0;
     padding: 0;
@@ -412,15 +301,9 @@ BBCODE QUOTES - OLD
     padding: 5px;
 }
 
-
-/**-----------------------
-HOTFIXES START
------------------------**/
-/*.bbcode_quote {
-  border-color: #2b2a2b;
-  padding: 10px 10px 10px 10px;
-  border-radius: 1px;
-}*/
+/*
+	Hotfixes
+*/
 
 .m_forumlatestnewthreads .thread .post-info-avatar .title > a.old, .m_forumlatestthreads .thread .post-info-avatar .title > a.old {
 color: #ffffff;

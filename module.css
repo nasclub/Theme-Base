@@ -15,6 +15,10 @@
     overflow: hidden;
 }
 
+.container .container_header {
+	background-color: transparent;
+}
+
 /*
 Edit and Delete Button
 */
